@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					soft: 'hsl(var(--primary-soft))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -52,6 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				'farm-green': {
+					DEFAULT: 'hsl(var(--farm-green))',
+					light: 'hsl(var(--farm-green-light))',
+					dark: 'hsl(var(--farm-green-dark))'
+				},
+				'harvest-gold': 'hsl(var(--harvest-gold))',
+				'earth-brown': 'hsl(var(--earth-brown))',
+				'sky-blue': 'hsl(var(--sky-blue))',
+				'leaf-green': 'hsl(var(--leaf-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -67,6 +77,16 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-farm': 'var(--gradient-farm)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-sky': 'var(--gradient-sky)'
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'card': 'var(--shadow-card)',
+				'strong': 'var(--shadow-strong)'
 			},
 			keyframes: {
 				'accordion-down': {
